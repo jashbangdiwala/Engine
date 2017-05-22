@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8f8b5a8e-abe0-4ed9-bfe1-e4032142efde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shaders">
+      <UniqueIdentifier>{fc33e45e-6258-4870-9218-7229443c6f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\IMGUI">
+      <UniqueIdentifier>{01228cfa-d59f-4fe2-b616-91aec50ebea7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\WinMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGUI\imgui.cpp">
+      <Filter>Source\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGUI\imgui_demo.cpp">
+      <Filter>Source\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGUI\imgui_draw.cpp">
+      <Filter>Source\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGUI\imgui_impl_glfw.cpp">
+      <Filter>Source\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGUI\imgui_impl_glfw_gl3.cpp">
+      <Filter>Source\IMGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ImGUI\imconfig.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGUI\imgui.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGUI\imgui_impl_glfw.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGUI\imgui_impl_glfw_gl3.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGUI\imgui_internal.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGUI\stb_rect_pack.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGUI\stb_textedit.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGUI\stb_truetype.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGUI\GL\glcorearb.h">
+      <Filter>Source\IMGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
